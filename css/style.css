@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  padding: 50px;
+}
+
+.disabledPCS button:disabled {
+  background: gray;
+  color: white;
+}
+.readonlyPCS input:read-only {
+  background: lightpink;
+}
+.focusedPCS input:focus {
+  border: none;
+  outline: none;
+  background: gainsboro;
+  color: gray;
+  padding: 5px;
+}
+.firstChildPCS input:first-child {
+  background: red;
+}
+.firstChildPCS input:last-child {
+  background: red;
+}
+.firstOfType p:first-of-type {
+  background: red;
+}
+.nthChild p:nth-child(1) {
+  background: greenyellow;
+}
+.nthOfType p:nth-of-type(2) {
+  background: orange;
+}
+.nthChildEX td {
+  padding: 5px;
+}
+
+.nthChildEX tr:nth-child(odd) {
+  background: lightblue;
+}
+
+.nthChildEX tr:nth-child(even) {
+  background: lightcyan;
+}
+.notPseudoClassSelector p:not(.para1){
+background: red;
+}
+fieldset{
+  padding: 20px;
+}
+.simpleAttribute [title]{
+  background: red;
+}
+.attributeWithValue [title="karishma randhir kapoor"]{
+  background: red;
+}
+.attributeWithValueTagName div[class="heroin"]{
+  background: red;
+}
+.attributeStartsWith [title^="karin"]{
+  background: red;
+}
+.attributeEndsWith [title$="ma randhir kapoor"]{
+  background: red;
+}
+.attrSeparatedByHifen p[title|="karishma"]{
+  background: red;
+}
+.attrSeparatedBySpace p[title~="karishma"]{
+  background: red;
+}
+.valuesIncluded [title*="ina"]{
+  background: red;
+}

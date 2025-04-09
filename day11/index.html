@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <input type="month" name="value"/>
+    
+      <button>Submit</button>
+    </form>
+
+    <script>
+      let input = document.querySelector("input");
+      input.addEventListener("input", (e) => {
+        console.log(e.target.name, ":", e.target.value);
+      });
+    </script>
+  </body>
+</html>
+<!-- http://127.0.0.1:5500/www.example.com?firstName=Prasad&lastName=Kadam-->
+<!-- http://127.0.0.1:5500/www.example.com? -->

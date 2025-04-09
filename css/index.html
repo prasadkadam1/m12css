@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <fieldset class="disabledPCS">
+      <legend>DISABLED PSEUDO CLASS SELECTOR</legend>
+      <input type="radio" />
+      <button disabled>CLICK</button>
+    </fieldset>
+    <fieldset class="readonlyPCS">
+      <legend>READONLY PSEUDO CLASS SELECTOR</legend>
+      <input type="text" readonly />
+      <button>CLICK</button>
+    </fieldset>
+    <fieldset class="focusedPCS">
+      <legend>FOCUSED PSEUDO CLASS SELECTOR</legend>
+      <input type="text" />
+      <button>CLICK</button>
+    </fieldset>
+    <fieldset class="firstChildPCS">
+      <!-- <legend>FOCUSED PSEUDO CLASS SELECTOR</legend> -->
+      <input type="text" />
+      <input type="text" />
+      <input type="text" />
+      <!-- <button>CLICK</button> -->
+    </fieldset>
+    <fieldset class="firstOfType">
+      <legend>firstOfType & lastOfType</legend>
+      <p>para outer</p>
+      <div>
+        <p>para1</p>
+        <p>para2</p>
+        <section>
+          <p>para3</p>
+        </section>
+      </div>
+    </fieldset>
+    <fieldset class="nthChild">
+      <legend>nthChild</legend>
+      <p>para outer</p>
+      <div>
+        <p>para1</p>
+        <p>para2</p>
+        <section>
+          <p>para3</p>
+        </section>
+      </div>
+    </fieldset>
+    <fieldset class="nthOfType">
+      <legend>nthOfType</legend>
+      <p>para outer</p>
+      <div>
+        <p>para1</p>
+        <p>para2</p>
+        <section>
+          <p>para3</p>
+        </section>
+      </div>
+    </fieldset>
+
+    <fieldset class="nthChildEX">
+      <legend>Table</legend>
+      <table cellspacing="0">
+        <tr>
+          <td>table content 1</td>
+          <td>table content 2</td>
+          <td>table content 3</td>
+          <td>table content 4</td>
+          <td>table content 5</td>
+          <td>table content 6</td>
+          <td>table content 7</td>
+          <td>table content 8</td>
+          <td>table content 9</td>
+          <td>table content 10</td>
+          <td>table content 11</td>
+          <td>table content 12</td>
+          <td>table content 13</td>
+          <td>table content 14</td>
+          <td>table content 15</td>
+        </tr>
+        <tr>
+          <td>table content 1</td>
+          <td>table content 2</td>
+          <td>table content 3</td>
+          <td>table content 4</td>
+          <td>table content 5</td>
+          <td>table content 6</td>
+          <td>table content 7</td>
+          <td>table content 8</td>
+          <td>table content 9</td>
+          <td>table content 10</td>
+          <td>table content 11</td>
+          <td>table content 12</td>
+          <td>table content 13</td>
+          <td>table content 14</td>
+          <td>table content 15</td>
+        </tr>
+        <tr>
+          <td>table content 1</td>
+          <td>table content 2</td>
+          <td>table content 3</td>
+          <td>table content 4</td>
+          <td>table content 5</td>
+          <td>table content 6</td>
+          <td>table content 7</td>
+          <td>table content 8</td>
+          <td>table content 9</td>
+          <td>table content 10</td>
+          <td>table content 11</td>
+          <td>table content 12</td>
+          <td>table content 13</td>
+          <td>table content 14</td>
+          <td>table content 15</td>
+        </tr>
+        <tr>
+          <td>table content 1</td>
+          <td>table content 2</td>
+          <td>table content 3</td>
+          <td>table content 4</td>
+          <td>table content 5</td>
+          <td>table content 6</td>
+          <td>table content 7</td>
+          <td>table content 8</td>
+          <td>table content 9</td>
+          <td>table content 10</td>
+          <td>table content 11</td>
+          <td>table content 12</td>
+          <td>table content 13</td>
+          <td>table content 14</td>
+          <td>table content 15</td>
+        </tr>
+        <tr>
+          <td>table content 1</td>
+          <td>table content 2</td>
+          <td>table content 3</td>
+          <td>table content 4</td>
+          <td>table content 5</td>
+          <td>table content 6</td>
+          <td>table content 7</td>
+          <td>table content 8</td>
+          <td>table content 9</td>
+          <td>table content 10</td>
+          <td>table content 11</td>
+          <td>table content 12</td>
+          <td>table content 13</td>
+          <td>table content 14</td>
+          <td>table content 15</td>
+        </tr>
+      </table>
+    </fieldset>
+    <fieldset class="notPseudoClassSelector">
+      <legend>notPseudoClassSelector</legend>
+    <p class="para1">paragraph</p>
+    <p>paragraph</p>
+    <p>paragraph</p>
+    </fieldset>
+    <fieldset class="simpleAttribute">
+      <legend>attribute selector</legend>
+      <p title="karishma randhir kapoor">Karishma</p>
+      <p class="karina randhir kapoor">Karina</p>
+    </fieldset>
+    <fieldset class="attributeWithValue">
+      <legend>attribute selector with value</legend>
+      <p title="karishma randhir kapoor">Karishma</p>
+      <p title="karina randhir kapoor">Karina</p>
+    </fieldset>
+    <fieldset class="attributeWithValueTagName">
+      <legend>attribute selector with value and tagname</legend>
+      <p class="heroin">Karishma</p>
+      <div class="heroin">Karina</div>
+    </fieldset>
+    <fieldset class="attributeStartsWith">
+      <legend>attribute selector that starts with value</legend>
+      <p title="karishma randhir kapoor">Karishma</p>
+      <p title="karina randhir kapoor">Karina</p>
+    </fieldset>
+
+    <fieldset class="attributeEndsWith">
+      <legend>attribute selector that ends with value</legend>
+      <p title="karishma randhir kapoor">Karishma</p>
+      <p title="karina randhir kapoor">Karina</p>
+    </fieldset>
+
+
+    <fieldset class="attrSeparatedByHifen">
+      <legend>attribute selector that ends with value</legend>
+      <p title="karishma randhir kapoor">Karishma</p>
+      <p title="karishma-randhir kapoor">Karina</p>
+    </fieldset>
+
+    <fieldset class="attrSeparatedBySpace">
+      <legend>attribute selector that ends with value</legend>
+      <p title="karishma randhir kapoor">Karishma</p>
+      <p title="karishma-randhir kapoor">Karina</p>
+    </fieldset>
+
+    <fieldset class="valuesIncluded">
+      <legend>attribute selector that ends with value</legend>
+      <p title="karishma randhir kapoor">Karishma</p>
+      <p title="karina-randhir kapoor">Karina</p>
+    </fieldset>
+  </body>
+</html>
